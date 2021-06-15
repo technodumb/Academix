@@ -10,6 +10,9 @@ void main() {
     for(int i=0; i<n; i++)
         scanf("%d", &arr[i]);
     
+    printf("\nInputted Array:\n");
+    for(int i=0; i<n; i++)
+        printf("   %d", arr[i]);
     int i, j;
     
     for(i=0; i<n-1; i++)
@@ -17,9 +20,9 @@ void main() {
             if(arr[j] > arr[j+1])
                 swap(&arr[j], &arr[j+1]);
 
-    printf("The sorted array is: \n");
+    printf("\n\nThe sorted array is: \n");
     for(i=0; i<n; i++)  
-        printf("%3d\n", arr[i]);
+        printf("   %d", arr[i]);
 }
 
 void swap(int *a, int *b) {
