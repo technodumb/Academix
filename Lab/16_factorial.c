@@ -20,7 +20,8 @@ void main(){
     int n;
     printf("Enter a number: ");
     scanf("%d", &n);
-    printf("Factorial: ");
+    printf("\n\nFactorial: ");
     printf("\n\t Recursive:     %d", factorial_recursive(n));
     printf("\n\t Non-recursive: %d", factorial_non_recursive(n));
+    printf("\n\n");
 }

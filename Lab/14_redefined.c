@@ -27,12 +27,11 @@ void main(){
     }
     while(cn=='y' || cn=='Y');
 
-    printf("\n\n\nEmployee Details:\n\n");
+    printf("\n\n\nEmployee Details:\n");
+    printf("\t Name \t Salary \t Emp ID ");
+    printf("\n____________________________________________________");
     for(int i=0; i<n; i++){
-        printf("Employee #%d", i+1);
-        printf("\n\t Name: %s",employee[i].name);
-        printf("\n\t Emp ID: %d",employee[i].empid);
-        printf("\n\t Salary: %.2f",employee[i].salary);
-        printf("\n\n");
+        printf("\n\t %d \t %s \t\t %f",employee[i].empid, employee[i].name, employee[i].salary);
     }
+    printf("\n\n\n\n");
 }
