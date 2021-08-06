@@ -8,7 +8,7 @@ struct point {
 
 
 float distance(struct point a,struct point b) {
-    	return sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
+    return sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
 }
 
 int main(void) {
