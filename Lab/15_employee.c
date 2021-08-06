@@ -32,7 +32,7 @@ void main(){
         if(employee[i].employee_No == x) {
             printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
             printf("Data of Employee: ");
-            printf("\n\tEmployee No: %d", employee[i].employee_No);
+            printf("\n\t Employee No: %d", employee[i].employee_No);
             printf("\n\t Name: %s", employee[i].employee_Name);
             printf("\n\t Weight: %.2f kg", employee[i].employee_data);
             printf("\n\n\n\n\n\n\n\n\n\n\n");
