@@ -1,1 +1,4 @@
 *.exe
+*.txt
+*.gitignore
+*.json
