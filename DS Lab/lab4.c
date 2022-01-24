@@ -143,6 +143,12 @@ void evaluate_postfix() {
     for(i=0;i<strlen(postfix_string);i++) {
         if(postfix_string[i] <='9' && postfix_string[i]>='0')
                 push(postfix_string[i]-'0');
+        if(postfix_string[i] >= 'a' && postfix_string[i] <= 'z'){
+            int x;
+            printf("Enter the value for %c: ", postfix_string[i]);
+            scanf("%d", &x);
+            push(x);
+        }
         else {
             a=pop();
             b=pop();
